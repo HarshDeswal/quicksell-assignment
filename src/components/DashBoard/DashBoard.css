@@ -1,0 +1,25 @@
+.dashContainer {
+    display: flex;
+    align-items: flex-start;
+    background: #f5f5f5;
+    padding: 100px 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .dashContainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
+
+.dashCardContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 360px;
+    min-width: 360px;
+    padding: 0px 30px 0px 0px;
+}
